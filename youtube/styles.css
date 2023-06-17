@@ -1,0 +1,130 @@
+img{
+    height: 210px;
+    width: 360px;
+    margin-right: 12px;
+    border-radius: 13px;
+    transition: .2s;
+}
+
+img:hover{
+    border-radius: 5px;
+    transform: scale(1.003);
+    cursor: pointer;
+}
+
+.image1{
+  position: relative;
+  right: -300px;
+}
+
+.image2{
+  position: relative;
+  right: -680px;
+  top: -213px;
+}
+
+.image3{
+  position: relative;
+  right: -1060px;
+  top: -428px;
+}
+
+.image4{
+  position: relative;
+  right: -1440px;
+  top: -643px;
+}
+
+.one{
+  margin-left: 300px;
+}
+
+a{
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Youtube sans', sans-serif;
+  text-align: left;
+}
+
+.menu{
+    width: 18px;
+    height: .09px;
+    border: 10px;
+    background-color: black;
+    margin: 6px;
+    border: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 14px;
+    right: -15px;
+  }
+
+  .youtube{
+    width:108px;
+    height:56px;
+    position: absolute;
+    left: 65px;
+    top: 0px;
+    margin: 0px;
+  }
+
+.search{
+    margin-top: 7px;
+    font-size: 15px;
+    height: 30px;
+    width: 540px;
+    position: absolute;
+    left:630px;
+    top: 0px;
+}
+
+button{
+  position: relative;
+  top: 35px;
+  left: 280px;
+  font-size: 14px;
+  font-family: "Roboto","Arial",sans-serif;
+  height: 25px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: transparent;
+  padding-top: 7px;
+  padding-bottom: 25px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.ad{
+  position: relative;
+  top: 30px;
+  left: 260px;
+  color: white;
+  background-color: black;
+  padding: 30px;
+  padding-bottom: 43px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Youtube sans', sans-serif;
+  border-right: 200px;
+}
+ .ad_button{
+  position: relative;
+  top: -215px;
+  left: 285px;
+  color: white;
+  background-color:red;
+  font-size: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 7px;
+  padding-right: 5px;
+ }
+
+ .ad .ad_buy{
+  position: relative;
+  left: -30px;
+ }
