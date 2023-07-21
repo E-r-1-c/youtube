@@ -1,72 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Youtube</title>
-    <link rel="icon" href="images/icon_type.jpg" type="image/icon type" />
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="menu"></div>
-    <div class="menu"></div>
-    <div class="menu"></div>
-    <a href="images/youtube_logo.jpg"
-      ><img class="youtube" src="images/youtube_logo.jpg" alt="YouTube Logo"
-    /></a>
-    <button>All</button>
-    <button>Gaming</button>
-    <button>Live</button>
-    <button>Music</button>
-    <button>Game shows</button>
-    <button>History</button>
-    <button>Comedy</button>
-    <button>Chill-out music</button>
-    <button>Podcasts</button>
-    <button>Driving</button>
-    <button>Basketball</button>
-    <button>Debates</button>
-    <button>Home improvement</button>
-    <button>Eating</button>
-    <button>Action-adventure games</button>
-    <button>Pop music</button>
-    <p class="ad">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YouTube Music<br />Get a family plan.
-      YouTube Music ad-free and<br />backround play for up to 6 household
-      members.<br />
-      <br /><button class="ad ad_buy">Get it now</button>
-    </p>
-    <button class="ad_button">&#9658;</button>
-
-    <input class="search" type="text" placeholder="&nbsp;&nbsp;Search" />
-
-    <div>
-      <div class="vids"></div>
-        <a href="images/forrest.jpg"><img class="image1" src="images/forrest.jpg" alt="Forrest"></a>
-        <a href="images/forrest.jpg"
-        >12hr Country road trip vlog</a
-      >
+    <div class="header">
+      <div class="left_section"><img class="menu" src="header/hamburger-menu.svg"><img class="logo" src="header/youtube-logo.svg"></div>
+      <div class="middle_section"> <input class="searchbar" type="text" placeholder="Search" />
+      <button class="search_button" ><img class="search" src="header/search.svg"></button>
+      <button class="voice_button"><img class="voice" src="header/voice-search-icon.svg" ></button>
+      </div>
+      <div class="right_section">
+        <img class="upload" src="header/upload.svg">
+        <img class="apps" src="header/youtube-apps.svg" >
+        <div class="notifications_container">
+          <img class="notifications" src="header/notifications.svg">
+          <div class="notifications_count">3</div>
+         </div>
+        <img class="Logged_profile" src="header/my-channel.jpeg">
+      </div>
     </div>
-
-    <div>
-      <div class="vids"></div>
-        <a href="images/coding.jpg"><img class="image2" src="images/coding.jpg" alt="coding"></a>
-        <a href="images/coding.jpg">Frontend web development - a complete overview</a>
-    <div>
-
-    <div> 
-      <div class="vids"></div> 
-        <a href="images/cars.jpg"><img class="image3" src="images/cars.jpg" alt="cars"></a>
-        <a href="images/cars.jpg">Top 10 fastest cars</a>
+    <div class="side_bar">
+      <div class="sidebar-link"><img src="header/home.svg"><div>Home</div></div>
+      <div class="sidebar-link"><img src="header/explore.svg"><div>Explore</div></div>
+      <div class="sidebar-link"><img src="header/subscriptions.svg"><div>Subsciptions</div></div>
+      <div class="sidebar-link"><img src="header/originals.svg"><div>Originals</div></div>
+      <div class="sidebar-link"><img src="header/youtube-music.svg"><div>YouTube Music</div></div>
+      <div class="sidebar-link"><img src="header/library.svg"><div>Library</div></div>
     </div>
+    <div class="video_grid">
+      <div class="video">
+        <div class="thumbnailrow">
+          <img
+            class="thumbnail"
+            src="image_thumbnail/thumbnail-1.jpg"
+            alt="Podcast"
+          />
+          <div class="video-time">10:20</div>
+        </div>
+        <div class="video_info_grid">
+          <div class="profile">
+            <img class="profile_picture" src="image_channel/channel-1.jpg" />
+          </div>
+          <div class="info">
+            <p class="title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="author">Marques Brownlee</p>
+            <p class="stats">3.4M views · 6 months ago</p>
+          </div>
+        </div>
+      </div>
 
-    <div>
-      <div class="vids"></div>
-      <a href="images/city.jpg"><img class="image4" src="images/city.jpg" alt="City lights"></a>
-      <a href="images/city.jpg">vibes lofi hip hop radio</a>
+      <div class="video">
+        <div class="thumbnailrow">
+          <img
+            class="thumbnail"
+            src="image_thumbnail/thumbnail-2.jpg"
+            alt="Podcast"
+          />
+            <div class="video-time">14:20</div>
+        </div>
+        <div class="video_info_grid">
+          <div class="profile">
+            <img class="profile_picture" src="image_channel/channel-2.jpg" />
+          </div>
+          <div class="info">
+            <p class="title">Try Not To Laugh Challenge #3!</p>
+            <p class="author">Marikplier</p>
+            <p class="stats">19M views · 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="thumbnailrow">
+          <img
+            class="thumbnail"
+            src="image_thumbnail/thumbnail-3.jpg"
+            alt="Podcast"
+          />
+            <div class="video-time">13:10</div>
+        </div>
+        <div class="video_info_grid">
+          <div class="profile">
+            <img class="profile_picture" src="image_channel/channel-3.jpg" />
+          </div>
+          <div class="info">
+            <p class="title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="author">SSSniperWolf</p>
+            <p class="stats">12M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="thumbnailrow">
+          <img
+            class="thumbnail"
+            src="image_thumbnail/thumbnail-4.jpg"
+            alt="Podcast"
+          />
+          <div class="video-time">17:10</div>
+        </div>
+        <div class="video_info_grid">
+          <div class="profile">
+            <img class="profile_picture" src="image_channel/channel-4.jpg" />
+          </div>
+          <div class="info">
+            <p class="title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+            <p class="author">Veritasium</p>
+            <p class="stats">18M views · 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="thumbnailrow">
+          <img
+            class="thumbnail"
+            src="image_thumbnail/thumbnail-5.jpg"
+            alt="Podcast"
+          />
+          <div class="video-time">12:15</div>
+        </div>
+        <div class="video_info_grid">
+          <div class="profile">
+            <img class="profile_picture" src="image_channel/channel-5.jpg" />
+          </div>
+          <div class="info">
+            <p class="title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="author">CS Dojo</p>
+            <p class="stats">519K views · 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="thumbnailrow">
+          <img
+            class="thumbnail"
+            src="image_thumbnail/thumbnail-6.jpg"
+            alt="Podcast"
+          />
+          <div class="video-time">15:20</div>
+        </div>
+        <div class="video_info_grid">
+          <div class="profile">
+            <img class="profile_picture" src="image_channel/channel-6.jpg" />
+          </div>
+          <div class="info">
+            <p class="title">Anything You Can Fit In The Circle I’ll Pay For</p>
+            <p class="author">MrBeast</p>
+            <p class="stats">141M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
-
   </body>
 </html>
